@@ -1,0 +1,12 @@
+name: PortalWarp
+version: 1.0.0
+main: ru.goblin_thug.portalwarp.PortalWarp
+api-version: '26.2'
+authors: [ Goblin_Thug ]
+description: Portal warp plugin for creating linked portals
+folia-supported: true
+permissions:
+  portalwarp.use:
+    default: true
+  portalwarp.admin:
+    default: op

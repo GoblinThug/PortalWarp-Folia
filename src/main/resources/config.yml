@@ -1,0 +1,30 @@
+# === PortalWarp Configuration ===
+
+# Cooldown after teleport in ticks (20 ticks = 1 second)
+# Задержка после телепортации в тиках (20 тиков = 1 секунда)
+teleport-cooldown: 20
+
+# Maximum portal interior size (blocks)
+# Максимальный размер интерьера портала (в блоках)
+max-interior-size: 100
+
+# Portal particle settings / Настройки частиц портала
+particles:
+  interval: 3
+  count: 6
+  spread: 0.4
+  color:
+    red: 60
+    green: 140
+    blue: 255
+  size: 1.5
+
+# Fill material and ambient effects / Заполнение и ambient-эффекты
+portal:
+  fill-material: CYAN_STAINED_GLASS_PANE
+  ambient-particle: ENCHANT
+  ambient-count: 2
+
+# Portals are managed automatically — do not edit by hand
+# Порталы управляются автоматически — не редактируйте вручную
+portals: []

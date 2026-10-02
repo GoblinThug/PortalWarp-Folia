@@ -1,0 +1,41 @@
+# =========================
+# PortalWarp — .gitattributes
+# =========================
+
+# Default: auto text, normalize line endings to LF in the repo
+* text=auto eol=lf
+
+# Explicit text
+*.java          text eol=lf
+*.yml           text eol=lf
+*.yaml          text eol=lf
+*.xml           text eol=lf
+*.md            text eol=lf
+*.txt           text eol=lf
+*.properties    text eol=lf
+*.json          text eol=lf
+*.sh            text eol=lf
+.gitignore      text eol=lf
+.gitattributes  text eol=lf
+.editorconfig   text eol=lf
+
+# Windows scripts
+*.bat           text eol=crlf
+*.cmd           text eol=crlf
+*.ps1           text eol=crlf
+
+# Binary
+*.jar           binary
+*.png           binary
+*.jpg           binary
+*.jpeg          binary
+*.gif           binary
+*.webp          binary
+*.ico           binary
+*.zip           binary
+*.gz            binary
+*.class         binary
+
+# Diff helpers
+*.md            diff=markdown
+*.java          diff=java
